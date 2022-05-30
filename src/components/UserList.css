@@ -1,0 +1,19 @@
+.users{
+    padding: 1rem;
+    background-color: #ffff;
+    margin: 2rem auto;
+    width: 50rem;
+    border-radius: 12px;
+    max-width: 95%;
+    color:red;
+}
+
+.users-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .users-list__fallback {
+    color: white;
+    text-align: center;
+  }
