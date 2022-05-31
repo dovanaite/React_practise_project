@@ -10,7 +10,7 @@ function App() {
       id: Math.random().toString(),
     },
     {
-      username: "test3 test3",
+      username: "test2 test2",
       age: "20",
       id: Math.random().toString(),
     },
@@ -18,8 +18,7 @@ function App() {
 
   const addUserHandler = (userInfo) => {
     setUsers((prevUsers) => {
-      
-      return [userInfo,...prevUsers];
+      return [userInfo, ...prevUsers];
     });
   };
 

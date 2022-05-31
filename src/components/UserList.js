@@ -3,9 +3,9 @@ import UserItem from "./UserItem";
 import "./UserList.css";
 
 const UserList = (props) => {
-  return (
     
-      <ul className="users-list">
+  return (
+      <li className="users-list">
           {props.items.map(user=>(
               <UserItem 
               key={user.id}
@@ -15,7 +15,7 @@ const UserList = (props) => {
               </UserItem>
           ))}
  
-      </ul>
+      </li>
   );
 };
 

@@ -4,7 +4,7 @@
     margin: 2rem auto;
     width: 50rem;
     max-width: 95%;
-    border-radius: 12px;
+    border-radius: 10px;
     text-align: center;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
   }
@@ -12,7 +12,7 @@
 .user-form__controls {
     display: block;
     /* gap: 1rem; */
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     text-align: left;
   }
   
@@ -22,11 +22,11 @@
     margin-bottom: 0.5rem;
   }
   
-  .user-form_control input {
+  .user-form__control input {
     font: inherit;
-    padding: 1rem;
-    border-radius: 6px;
-    border: 1px solid #ccc;
+    padding: 0.3rem;
+    border-radius: 3px;
+    border: 1px solid rgb(192, 186, 186);
     width: 100%;
   }
   
@@ -48,5 +48,47 @@
   .user-form button:active {
     background-color: #62088c;
     border-color: #510674;
+  }
+
+  .blur_background{
+    opacity: 30%;
+  }
+
+  .user-form__invalid{
+    position:absolute;
+    background-color: #FFFFFF;
+    padding-bottom: 1.5rem;
+    margin: auto;
+    left:0;
+    right:0;
+    top:15rem;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+  }
+  
+  .user-form__invalid h2{
+    background-color: #500980;
+    width: 100%;
+    margin:0;
+    padding:1rem;
+    color:white;
+    text-align: left;
+  }
+  .user-form__invalid p{
+    width: 100%;
+    margin:2rem;
+    padding:0;
+    text-align: left;
+  }
+  .user-form__invalid button{
+    background-color: #500980;
+    color:white;
+    padding:0.3rem 1rem;
+    float: right;
+    margin:0 2rem;
   }
   
